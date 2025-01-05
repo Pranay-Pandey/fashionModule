@@ -111,21 +111,6 @@ for workflow in workflows:
         unsafe_allow_html=True,
     )
 
-# Section: Visual Overview
-st.markdown("## 🎨 Visual Overview")
-
-col1, col2 = st.columns(2)
-
-with col1:
-    st.markdown("### Ontology Visualization")
-    image = Image.open("ontology_visualization.png")  # Replace with actual path
-    st.image(image, caption="Interactive Ontology View")
-
-with col2:
-    st.markdown("### Query Interface")
-    image = Image.open("query_interface.png")  # Replace with actual path
-    st.image(image, caption="Product Query and Relationships")
-
 # Section: About
 st.markdown("## ℹ️ About")
 st.write(
