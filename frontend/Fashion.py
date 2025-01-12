@@ -41,6 +41,10 @@ st.markdown(
         font-size: 1.3rem;
         color: #444;
     }
+    .feature-box p {
+        font-size: 1.1rem;
+        color: #666;
+    }
     </style>
     <div class="hero">
         <h1>Welcome to the Fashion Ontology Platform</h1>
@@ -126,3 +130,31 @@ st.markdown(
     - **PyVis**: Visualizing relationships and hierarchies interactively.
     """
 )
+
+st.markdown(
+    """
+    <style>
+    .popup {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        color: #000;
+    }
+    .popup a {
+        color: #333;
+        text-decoration: underline;
+    }
+    </style>
+    <div class="popup">
+        This is a deployed version of the application, with limited functionalities. To access the full version with all the features, please visit the <a href="https://github.com/ImJericho/stylumia-nxt/">repository</a>.
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
+
+
